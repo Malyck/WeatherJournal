@@ -19,4 +19,21 @@
 // Callback function to complete GET '/all'
 
 // Post Route
-  
+    
+const cors = require('cors');
+const bodyParser = require('body-parser');
+const express = require('express');
+const app = express();
+const port = 8000;
+const host = '127.0.0.1';
+
+app.use(express.static('website'));
+app.use(bodyParser.urlencoded({extended:false}));
+app.use(bodyParser.json());
+app.use(cors());
+
+const server = app.listen(port,listening);
+
+function listening() {
+    console.log(`----------------------------------------------\n◈  Server is running ➜  http://${host}:${port}\n----------------------------------------------`);
+}
