@@ -1,25 +1,3 @@
-// Setup empty JS object to act as endpoint for all routes
-// Express to run server and routes
-
-// Start up an instance of app
-
-/* Dependencies */
-/* Middleware*/
-
-//Here we are configuring express to use body-parser as middle-ware.
-// Cors for cross origin allowance
-
-// Initialize the main project folder
-
-// Spin up the server
-// Callback to debug
-
-// Initialize all route with a callback function
-
-// Callback function to complete GET '/all'
-
-// Post Route
-    
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const express = require('express');
@@ -33,6 +11,15 @@ app.use(bodyParser.json());
 app.use(cors());
 
 projectData = {};
+
+app.post('/add',function (req,res){
+    projectData=req.body;
+    console.log(projectData);
+});
+
+app.get('/get',function(req,res){
+    res.send(projectData);
+})
 
 const server = app.listen(port,listening);
 
