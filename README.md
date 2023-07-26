@@ -15,7 +15,7 @@ Weather Journal Project is a dynamic web app using HTML, CSS, and JavaScript to 
 
 ## Demo
 
-![Untitled]https://github.com/Malyck/WeatherJournal/assets/42318084/fd4ee1b4-beaa-4641-89e0-32d2bbea32b9
+https://github.com/Malyck/WeatherJournal/assets/42318084/fd4ee1b4-beaa-4641-89e0-32d2bbea32b9
 
 
 
