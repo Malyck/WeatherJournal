@@ -32,7 +32,7 @@ const getCity = async (baseURL, zip, key)=>{
 
     const newData = {"date":dt,"temperature":data.list[0].main.temp,"response":feelings.value};
 
-    console.log(`Data i send it to my server`);
+    console.log(`Data i send it to my server :`);
     console.log(newData);
 
     postData('/add',newData);
