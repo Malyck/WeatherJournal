@@ -51,7 +51,7 @@ after that go to your web Browser and use this URL `http://127.0.0.1:8000`  to a
 ## Contribute
 
 
-We welcome contributions to enhance and improve the landing page project. To contribute, please follow these guidelines:
+We welcome contributions to enhance and improve the Weather Journal Project. To contribute, please follow these guidelines:
 
 1. Fork the repository and clone it to your local machine.
 ```bash
