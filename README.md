@@ -83,7 +83,7 @@ $ git push origin feature/your-feature
 
 9. Once your changes are approved, they will be merged into the main repository.
 
-Thank you for your contributions to the landing page project! We appreciate your time and effort in making this project better.
+Thank you for your contributions to the Weather Journal project! We appreciate your time and effort in making this project better.
 
 
 [(Back to top)](#table-of-contents)
