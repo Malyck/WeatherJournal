@@ -138,6 +138,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 
 * Email:malyck.almamari@gmail.com
-* Twitter: @yourusername
+* linkedIn: www.linkedin.com/in/malyck
 
 [(Back to top)](#table-of-contents)
